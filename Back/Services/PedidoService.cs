@@ -22,8 +22,8 @@ public class PedidoService : IPedidoService
 
     public void Processar(List<PedidoViewModel> pedidos)
     {
-        var obLock = new Object();
-        var _pedidos = new List<Pedido>();
+        var obLock = new object();
+        var listaPedidos = new List<Pedido>();
 
         Parallel.ForEach(pedidos, (PedidoViewModel pedido) =>
         {
@@ -37,6 +37,7 @@ public class PedidoService : IPedidoService
 
                 if (produto is null)
                 {
+                    // Adicionar novo produto
                     var novoProduto = new Produto { Descricao = pedido.Produto };
                     _produtoRepository.Add(novoProduto);
                     produtoId = novoProduto.Id;
@@ -54,6 +55,7 @@ public class PedidoService : IPedidoService
 
                 if (cliente is null)
                 {
+                    // Adicionar novo cliente
                     var novoCliente = new Cliente { Nome = pedido.Cliente };
                     _clienteRepository.Add(novoCliente);
                     clienteId = novoCliente.Id;
@@ -70,12 +72,11 @@ public class PedidoService : IPedidoService
                 ProdutoId = produtoId
             };
 
-            _pedidos.Add(novoPedido);
+            listaPedidos.Add(novoPedido);
 
         });
 
-        _pedidoRepository.AddRange(_pedidos);
-        // _context.Pedido.AddRange(_pedidos);
-        // await _context.SaveChangesAsync();
+        // Salvar Pedido sem duplicar dados
+        _pedidoRepository.AddRange(listaPedidos);
     }
 }

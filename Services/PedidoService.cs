@@ -1,9 +1,6 @@
-using System.Collections.Concurrent;
-using Api.Data;
 using Api.Interfaces;
 using Api.Models;
 using Api.ViewModels;
-using Microsoft.EntityFrameworkCore;
 
 namespace Api.Services;
 

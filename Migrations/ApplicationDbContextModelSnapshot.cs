@@ -30,8 +30,10 @@ namespace Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("datetime");
+                    b.Property<DateTime?>("DataCadastro")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime")
+                        .HasDefaultValueSql("getdate()");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -53,8 +55,10 @@ namespace Api.Migrations
                     b.Property<int>("ClienteId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("datetime");
+                    b.Property<DateTime?>("DataCadastro")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime")
+                        .HasDefaultValueSql("getdate()");
 
                     b.Property<int>("ProdutoId")
                         .HasColumnType("int");
@@ -76,8 +80,10 @@ namespace Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("datetime");
+                    b.Property<DateTime?>("DataCadastro")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime")
+                        .HasDefaultValueSql("getdate()");
 
                     b.Property<string>("Descricao")
                         .IsRequired()

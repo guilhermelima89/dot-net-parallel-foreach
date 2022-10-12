@@ -9,16 +9,24 @@ namespace Api.Services;
 
 public class PedidoService : IPedidoService
 {
-    private readonly ApplicationDbContext _context;
-    public PedidoService(ApplicationDbContext context)
+    private readonly IProdutoRepository _produtoRepository;
+    private readonly IClienteRepository _clienteRepository;
+    private readonly IPedidoRepository _pedidoRepository;
+    public PedidoService(
+        IProdutoRepository produtoRepository,
+        IClienteRepository clienteRepository,
+        IPedidoRepository pedidoRepository
+        )
     {
-        _context = context;
+        _produtoRepository = produtoRepository;
+        _clienteRepository = clienteRepository;
+        _pedidoRepository = pedidoRepository;
     }
 
-    public async Task Processar(List<PedidoViewModel> pedidos)
+    public void Processar(List<PedidoViewModel> pedidos)
     {
         var obLock = new Object();
-        var _pedidos = new ConcurrentBag<Pedido>();
+        var _pedidos = new List<Pedido>();
 
         Parallel.ForEach(pedidos, (PedidoViewModel pedido) =>
         {
@@ -28,13 +36,12 @@ public class PedidoService : IPedidoService
             // Pesquisar & Adicionar Produto
             lock (obLock)
             {
-                var produto = _context.Produto.FirstOrDefaultAsync(x => x.Descricao == pedido.Produto);
+                var produto = _produtoRepository.Where(x => x.Descricao == pedido.Produto);
 
                 if (produto is null)
                 {
                     var novoProduto = new Produto { Descricao = pedido.Produto };
-                    _context.Produto.Add(novoProduto);
-                    _context.SaveChangesAsync();
+                    _produtoRepository.Add(novoProduto);
                     produtoId = novoProduto.Id;
                 }
                 else
@@ -46,13 +53,12 @@ public class PedidoService : IPedidoService
             // Pesquisar & Adicionar Cliente
             lock (obLock)
             {
-                var cliente = _context.Cliente.FirstOrDefaultAsync(x => x.Nome == pedido.Cliente);
+                var cliente = _clienteRepository.Where(x => x.Nome == pedido.Cliente);
 
                 if (cliente is null)
                 {
                     var novoCliente = new Cliente { Nome = pedido.Cliente };
-                    _context.Cliente.Add(novoCliente);
-                    _context.SaveChangesAsync();
+                    _clienteRepository.Add(novoCliente);
                     clienteId = novoCliente.Id;
                 }
                 else
@@ -71,7 +77,8 @@ public class PedidoService : IPedidoService
 
         });
 
-        _context.Pedido.AddRange(_pedidos);
-        await _context.SaveChangesAsync();
+        _pedidoRepository.AddRange(_pedidos);
+        // _context.Pedido.AddRange(_pedidos);
+        // await _context.SaveChangesAsync();
     }
 }

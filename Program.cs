@@ -1,5 +1,6 @@
 using Api.Data;
 using Api.Interfaces;
+using Api.Repositories;
 using Api.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 builder.Services.AddScoped<ApplicationDbContext>();
 builder.Services.AddScoped<IPedidoService, PedidoService>();
+builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

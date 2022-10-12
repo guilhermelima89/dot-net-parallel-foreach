@@ -4,5 +4,5 @@ namespace Api.Interfaces;
 
 public interface IPedidoService
 {
-    Task Processar(List<PedidoViewModel> pedidos);
+    void Processar(List<PedidoViewModel> pedidos);
 }

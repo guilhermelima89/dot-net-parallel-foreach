@@ -16,7 +16,7 @@ namespace Api.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "varchar(250)", nullable: false),
-                    DataCadastro = table.Column<DateTime>(type: "datetime", nullable: false)
+                    DataCadastro = table.Column<DateTime>(type: "datetime", nullable: true, defaultValueSql: "getdate()")
                 },
                 constraints: table =>
                 {
@@ -30,7 +30,7 @@ namespace Api.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Descricao = table.Column<string>(type: "varchar(250)", nullable: false),
-                    DataCadastro = table.Column<DateTime>(type: "datetime", nullable: false)
+                    DataCadastro = table.Column<DateTime>(type: "datetime", nullable: true, defaultValueSql: "getdate()")
                 },
                 constraints: table =>
                 {
@@ -45,7 +45,7 @@ namespace Api.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ClienteId = table.Column<int>(type: "int", nullable: false),
                     ProdutoId = table.Column<int>(type: "int", nullable: false),
-                    DataCadastro = table.Column<DateTime>(type: "datetime", nullable: false)
+                    DataCadastro = table.Column<DateTime>(type: "datetime", nullable: true, defaultValueSql: "getdate()")
                 },
                 constraints: table =>
                 {

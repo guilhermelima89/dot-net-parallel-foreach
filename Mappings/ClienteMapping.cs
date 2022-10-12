@@ -2,23 +2,23 @@ using Api.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Api.Mappings
+namespace Api.Mappings;
+
+public class ClienteMapping : IEntityTypeConfiguration<Cliente>
 {
-    public class ClienteMapping : IEntityTypeConfiguration<Cliente>
+    public void Configure(EntityTypeBuilder<Cliente> builder)
     {
-        public void Configure(EntityTypeBuilder<Cliente> builder)
-        {
-            builder.HasKey(x => x.Id);
+        builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Nome)
-                .IsRequired()
-                .HasColumnType("varchar(250)");
+        builder.Property(x => x.Nome)
+            .IsRequired()
+            .HasColumnType("varchar(250)");
 
-            /* ENTITY */
-            builder.Property(x => x.DataCadastro)
-                .HasColumnType("datetime");
+        /* ENTITY */
+        builder.Property(x => x.DataCadastro)
+            .HasColumnType("datetime")
+            .HasDefaultValueSql("getdate()");
 
-            builder.ToTable("Cliente");
-        }
+        builder.ToTable("Cliente");
     }
 }

@@ -185,7 +185,7 @@ dotnet_diagnostic.CA1847.severity = warning
 dotnet_diagnostic.CA1852.severity = warning
 
 # CA2007: Consider calling ConfigureAwait on the awaited task
-dotnet_diagnostic.CA2007.severity = warning
+dotnet_diagnostic.CA2007.severity = false
 
 # CA2008: Do not create tasks without passing a TaskScheduler
 dotnet_diagnostic.CA2008.severity = warning
@@ -259,7 +259,7 @@ dotnet_diagnostic.IDE0060.severity = warning
 dotnet_diagnostic.IDE0062.severity = warning
 
 # IDE0073: File header
-dotnet_diagnostic.IDE0073.severity = warning
+dotnet_diagnostic.IDE0073.severity = false
 file_header_template = Licensed to the .NET Foundation under one or more agreements.\nThe .NET Foundation licenses this file to you under the MIT license.
 
 # IDE0161: Convert to file-scoped namespace

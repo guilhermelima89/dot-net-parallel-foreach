@@ -30,6 +30,16 @@ public class PedidoController : ControllerBase
             Produto = "Gelo",
             Cliente = "Pedro"
         },
+        new PedidoViewModel
+        {
+            Produto = "Coca",
+            Cliente = "Jessica"
+        },
+        new PedidoViewModel
+        {
+            Produto = "Gelo",
+            Cliente = "Jessica"
+        },
     };
 
     private readonly IPedidoService _pedidoService;
@@ -39,9 +49,9 @@ public class PedidoController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post()
+    public IActionResult Post()
     {
-        await _pedidoService.Processar(Pedidos);
+        _pedidoService.Processar(Pedidos);
         return Ok();
     }
 }

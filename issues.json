@@ -1,0 +1,542 @@
+[
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "ad72ef8f-7b62-4e46-b09d-af3671eef295"
+    },
+    "FileName": "IPedidoService.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Interfaces\\IPedidoService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Insert \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "709c0b82-9988-4340-8ef9-f96cc5fb373b"
+    },
+    "FileName": "Cliente.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Cliente.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Insert \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "55c71ed0-54d1-4658-a8e9-7178e590bb45"
+    },
+    "FileName": "Entity.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Entity.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Insert \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "4ca16b91-ad3e-4714-85ad-4b9349a6bfdc"
+    },
+    "FileName": "Pedido.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Pedido.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Insert \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "2f4e7db9-2a00-47d1-8d14-761118d7deca"
+    },
+    "FileName": "Produto.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Produto.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Insert \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "0ab37c63-9203-4709-803a-eefdf69ff30b"
+    },
+    "FileName": "PedidoService.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Services\\PedidoService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 77,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Insert \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "7045e189-ceea-432f-8189-a154f1925ada"
+    },
+    "FileName": "PedidoViewModel.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\ViewModels\\PedidoViewModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 7,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Fix final newline. Insert \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "998867c5-ca9a-4873-bd87-48e854c7b8e6"
+    },
+    "FileName": "20221012151051_001.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Migrations\\20221012151051_001.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "CHARSET",
+        "FormatDescription": "Fix file encoding."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "13f91351-2903-4829-823f-1f5166d7d038"
+    },
+    "FileName": "PedidoController.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Controllers\\PedidoController.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "a963b150-1056-441f-b1e3-3905aff5f10e"
+    },
+    "FileName": "ApplicationDbContext.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Data\\ApplicationDbContext.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "ad72ef8f-7b62-4e46-b09d-af3671eef295"
+    },
+    "FileName": "IPedidoService.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Interfaces\\IPedidoService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "7af4c999-059a-420c-af52-3f9bf3cd9f26"
+    },
+    "FileName": "ClienteMapping.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Mappings\\ClienteMapping.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "646d93cf-7836-4da5-9333-919795674603"
+    },
+    "FileName": "PedidoMapping.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Mappings\\PedidoMapping.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "31175eaa-5589-4da6-a866-80a077c0bf10"
+    },
+    "FileName": "ProdutoMapping.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Mappings\\ProdutoMapping.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "998867c5-ca9a-4873-bd87-48e854c7b8e6"
+    },
+    "FileName": "20221012151051_001.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Migrations\\20221012151051_001.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "709c0b82-9988-4340-8ef9-f96cc5fb373b"
+    },
+    "FileName": "Cliente.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Cliente.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "55c71ed0-54d1-4658-a8e9-7178e590bb45"
+    },
+    "FileName": "Entity.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Entity.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "4ca16b91-ad3e-4714-85ad-4b9349a6bfdc"
+    },
+    "FileName": "Pedido.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Pedido.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "2f4e7db9-2a00-47d1-8d14-761118d7deca"
+    },
+    "FileName": "Produto.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Models\\Produto.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "cff07e0f-117f-4d3b-9b93-30a4603506c3"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "0ab37c63-9203-4709-803a-eefdf69ff30b"
+    },
+    "FileName": "PedidoService.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Services\\PedidoService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "7045e189-ceea-432f-8189-a154f1925ada"
+    },
+    "FileName": "PedidoViewModel.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\ViewModels\\PedidoViewModel.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0073",
+        "FormatDescription": "warning IDE0073: A source file is missing a required header."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "7af4c999-059a-420c-af52-3f9bf3cd9f26"
+    },
+    "FileName": "ClienteMapping.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Mappings\\ClienteMapping.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 5,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0161",
+        "FormatDescription": "warning IDE0161: Convert to file-scoped namespace"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "998867c5-ca9a-4873-bd87-48e854c7b8e6"
+    },
+    "FileName": "20221012151051_001.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Migrations\\20221012151051_001.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 1,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0005",
+        "FormatDescription": "warning IDE0005: Using directive is unnecessary."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "998867c5-ca9a-4873-bd87-48e854c7b8e6"
+    },
+    "FileName": "20221012151051_001.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Migrations\\20221012151051_001.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0161",
+        "FormatDescription": "warning IDE0161: Convert to file-scoped namespace"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "31175eaa-5589-4da6-a866-80a077c0bf10"
+    },
+    "FileName": "ProdutoMapping.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Mappings\\ProdutoMapping.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 5,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0161",
+        "FormatDescription": "warning IDE0161: Convert to file-scoped namespace"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "646d93cf-7836-4da5-9333-919795674603"
+    },
+    "FileName": "PedidoMapping.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Mappings\\PedidoMapping.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 5,
+        "CharNumber": 1,
+        "DiagnosticId": "IDE0161",
+        "FormatDescription": "warning IDE0161: Convert to file-scoped namespace"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "13f91351-2903-4829-823f-1f5166d7d038"
+    },
+    "FileName": "PedidoController.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Controllers\\PedidoController.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 44,
+        "CharNumber": 15,
+        "DiagnosticId": "CA2007",
+        "FormatDescription": "warning CA2007: Consider calling ConfigureAwait on the awaited task"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "0ab37c63-9203-4709-803a-eefdf69ff30b"
+    },
+    "FileName": "PedidoService.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Services\\PedidoService.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 75,
+        "CharNumber": 15,
+        "DiagnosticId": "CA2007",
+        "FormatDescription": "warning CA2007: Consider calling ConfigureAwait on the awaited task"
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "857f7123-3296-48ca-a3c8-cbcefd8dc87b"
+      },
+      "Id": "cff07e0f-117f-4d3b-9b93-30a4603506c3"
+    },
+    "FileName": "Program.cs",
+    "FilePath": "D:\\POC\\dot-net-paralel\\Program.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 6,
+        "CharNumber": 1,
+        "DiagnosticId": "CA1852",
+        "FormatDescription": "warning CA1852: Type \u0027Program\u0027 can be sealed because it has no subtypes in its containing assembly and is not externally visible"
+      }
+    ]
+  }
+]
